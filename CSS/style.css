@@ -1,0 +1,197 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: whitesmoke;
+	font-family: 'Merriweather', serif;
+}
+
+div img
+{
+	max-width:50px;
+	max-height:50px;
+	width: auto;
+	height: auto;
+}
+
+header
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 5px;
+
+	/* border-bottom: 1px solid whitesmoke; */
+	/* cor , horizontal, vertical, nentendionome, cor */
+	box-shadow: 1px 1px 10px 1px whitesmoke;
+	/* border-bottom: 15px ridge whitesmoke; */
+
+	bottom: 25px;
+	right: 162px;
+	width: auto;
+	height: auto;
+	/* background: rgba(255,255,255,0.4); */
+	background: rgba(255, 255, 255, 0.486);
+	backdrop-filter: blur(10px);
+	border-radius: 10px;
+	border: 1px solid rgba(255,255,255,0.2);
+	border-bottom: 1px solid whitesmoke;
+
+}
+
+header h1
+{
+	
+	font-style: italic;
+}
+
+header ul
+{
+	display: flex;
+}
+
+header ul li
+{
+	padding: 5px;
+	display: flex;
+	font-size: 1em;
+	/* border-bottom: 2px dashed whitesmoke; */
+}
+
+header ul li a:hover
+{
+	color:pink;
+	text-decoration: underline;
+}
+
+header ul li a
+{
+	transition: 300ms;
+}
+
+body
+{
+	background: url(img/back.jpeg) no-repeat center center fixed;
+	background-size: cover;
+	/* background: linear-gradient(90deg,#f2709c,#ff9472); */
+}
+
+ul
+{
+	list-style: none;
+	font-style: italic;
+}
+
+a
+{
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.container
+{
+	text-align: center;
+	font-size: 2em;
+
+	/* width: auto;
+	height: auto;
+	background: rgba(255,255,255,0.4); */
+}
+
+/* .container .name #about 
+{ 
+	bottom: 25px;
+	right: 162px;
+	width: 200px;
+	height: 200px;
+	background: rgba(255,255,255,0.4);
+	backdrop-filter: blur(10px);
+	border-radius: 10px;
+	border: 1px solid rgba(255,255,255,0.2);
+	border-bottom: 1px solid whitesmoke;
+} */
+
+
+.container p
+{
+	text-align: center;
+}
+
+.container .name h1 
+{
+	font-size: 60px;
+}
+
+.container .name h5
+{
+	font-size: 25px;
+}
+
+/* borda */
+/* .form  
+{
+	width: 40%;
+	margin: 0 auto;
+	border: thick double whitesmoke;
+	padding: 25px;
+} */
+
+.form input
+{
+	width: 50%;
+	padding: 5px 10px;
+	/* background: transparent; */
+	border-radius: 5px 0px 0px 5px;
+	/* border-radius: 50px/50px;
+	border: solid;
+	border-width: 2px; */
+	border: none;
+}
+
+.form p
+{
+	font-family: 'Merriweather', serif;
+}
+
+::-webkit-input-placeholder 
+{
+	color: pink;
+	font-family: 'Merriweather', serif;
+ }
+
+.form button 
+{
+	/* width: 15%;
+	font-size: 15px;
+	background: transparent;
+	border-style: ridge;
+	border-radius: 50px/50px;
+	border: solid;
+	border-width: 2px; */
+	/* background-color: whitesmoke; */
+
+	/* aula */
+	width: 15%;
+	padding: 5px 10px;
+	background: linear-gradient(to right, whitesmoke 50%, pink 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+	color: whitesmoke;
+	font-weight: 600;
+	border: none;
+	cursor: pointer;
+	transition: all 300ms ease-out;
+	border-radius: 0px 5px 5px 0px;
+	margin-top: 20px;
+	margin-left: -7px;
+}
+
+.form button:hover
+{
+	background: left bottom;
+	color: whitesmoke;
+}
+
+
+

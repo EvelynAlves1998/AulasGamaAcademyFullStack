@@ -1,0 +1,40 @@
+h1
+{
+	text-align: center;
+}
+
+.container
+{
+	max-width: 1100px;
+	/* 0 cima,baixo e auto esquerda direita*/
+	margin: 0 auto;
+	/* cima,direita,baixo,esquerda */
+	/* margin: 10px 5px 10px 5px; */
+	/* 10pxcima,baixo e  esquerda,direita*/
+	/* margin: 10px 5px; */
+	display: flex;
+}
+
+p
+{
+	text-align: justify;
+	padding: 0 10px;	
+}
+
+.lista__footer
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+
+a
+{
+	text-decoration: none;
+	color: darkmagenta;
+}
+
+li 
+{
+	padding: 10px;
+}

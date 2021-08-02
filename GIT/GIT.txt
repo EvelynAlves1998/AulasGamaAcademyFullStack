@@ -1,0 +1,26 @@
+### GIT
+
+- git init - inicia nosso versionamento | transformar sua pasta em um diretorio git inicializando
+- git add (nomedoarquivo) ou * ou . - adiciona ou modifica alteraушes elegiveis para nosso ponto do tempo | add todos os arquivos presentes no diretorio pra mandar pro git 
+
+- git commit -m "mensagem do que alterou"- adiciona nosso ponto na linha do tempo | manda os arquivos pro repositorio
+
+- git log - vizualiza pontos na linha do tempo do commit | mostra quem alterou
+
+- git status - informa estado atual de alteraушes | verifica se houve alteraушes no repositorio
+
+- git branch (nome) - ж tipo um commit temporario sem alterar o principal
+
+- git show - apresenta um ponto indicado na linha do tempo
+
+- git checkout nomedobranch - ver os branch
+
+- git merge (nome) - unifica com a branch principal
+
+- git push - publicar modificações locais a um repositório central.
+- git clone - clonar um projeto de um repositorio remoto
+- git pull - atualiza seu repositorio local a do repo remoto
+- gitflow
+
+
+
